@@ -1,34 +1,44 @@
+/*body*/
+
 body {
-    /*body*/
     margin: 5;
     padding: 5;
     font-family: 'Roboto', sans-serif;
 }
 
+/*banner1*/
+
 .banner1 {
-    /*banner1*/
     color: white;
     background-color: black;
     padding: 0.5%;
     margin: auto;
 }
 
+/*banner2*/
+
 .banner2 {
-    /*banner2*/
     color: white;
     background-color: #F0A83E;
     margin: auto;
 }
 
+/*****Header***/
+
+.imagenpatita {
+    top: 15%;
+}
+
+/*Titulo*/
 
 h1 {
-    /*Titulo*/
     color: #3C2313;
     text-align: center;
 }
 
+/*Comederos en decuento*/
+
 #comederos {
-    /*Comederos en decuento*/
     color: #3C2313;
     text-align: center;
     position: absolute;
@@ -39,8 +49,9 @@ h1 {
     font-size: 16px;
 }
 
+/*Comederos*/
+
 button {
-    /*Comederos*/
     background-color: #F0A83E;
     position: absolute;
     width: 95px;
@@ -58,21 +69,24 @@ button {
     border-radius: 5px;
 }
 
+/*Footer1*/
+
 #footer1 {
-    /*Footer1*/
     color: white;
     background-color: #F0A83E;
     padding: 5px;
 }
 
+/*Footer2*/
+
 #footer2 {
-    /*Footer2*/
     color: white;
     background-color: #3C2313;
 }
 
+/*Derechos de autor*/
+
 h4 {
-    /*Derechos de autor*/
     color: white;
     text-align: center;
     background-color: #F0A83E;
