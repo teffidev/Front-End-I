@@ -16,7 +16,6 @@ body {
     background-color: #D1891C;
     color: #000000;
     font-size: 20px;
-    width: 100%;
 }
 
 /****Banner2****/
@@ -28,30 +27,57 @@ h1 {
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
     background-color: #00669F;
     color: #FFFFFF;
-    width: 100%;
     height: 80px;
     margin: 0px;
+}
+
+/*****Menu****/
+
+.menuppal {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 40px;
+    box-shadow: 0px 10px 7px rgb(0, 0, 0, 0.25);
+    background-color: #001D2D;
+}
+
+nav a {
+    flex-grow: 0.01;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;   
+}
+
+nav a:hover {
+    background-color: rgba(212, 200, 200, 0.5);
+    padding: 5px;
+}
+
+nav a:visited {
+    color: #FFFFFF;
 }
 
 /*******MAIN********/
 
 .section {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
+    justify-content: space-between;
 }
 
 /********Article*******/
+
 
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
+    height: 71vh;
     margin: 10px;
-    width: 50%;
-    padding-bottom: 15px;
+    padding: 10px;
     background-color: #F3F3F3;
 }
 
@@ -65,7 +91,7 @@ i {
 
 .backgroundcard {
     display: flex;
-    border-radius: 35px;
+    border-radius: 18px;
     width: 520px;
     height: 360px;
     left: 148px;
@@ -73,12 +99,8 @@ i {
 }
 
 .picture {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
     border-radius: 50%;
-    width: 200px;
+    width: 180px;
 }
 
 h2 {
@@ -102,9 +124,8 @@ button {
 
 p {
     display: flex;
-    font-size: 26px;
+    font-size: 18px;
     color: #333333;
-    text-align: left;
     margin: 25px;
     padding: 25px;
 }
@@ -113,16 +134,18 @@ p {
 
 footer {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     background-color: #00669f;
-    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
-    width: 100%;
+    box-shadow: 0px 10px 7px rgb(0, 0, 0, 0.25);
+}
+
+footer img {
+    justify-content: end;
 }
 
 .texto-footer {
     color: #FFFFFF;
-    text-align: center;
     font-size: 24px;
     margin-right: 250px;
     padding-right: 250px;

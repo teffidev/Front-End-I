@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="/ROOT/CSS/registro.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Karla:wght@200;300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="descuento">
+            <span>20% de descuento en todos los productos</span>
+        </div>
+        <h1>Nombre de tienda</h1>
+        <div>
+            <nav class="nav-bar">
+                <a href="/ROOT/index.html">Inicio</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="formulario">
+            <form action="text" method="POST">
+                <label class="title">Registro</label>
+                <p>
+                    <label for="NombreCompleto">Nombre y Apellido</label>
+                    <input type="text" name="nombre" id="NombreCompleto">
+                </p>
+
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                </p>
+
+                <p>
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" name="password" id="contraseña">
+                </p>
+
+                <p>
+                    <label for="pais">País:
+                        <select name="Pais" id="Pais">
+                            <option value="Argentina">Argentina</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Brasil">Brasil</option>
+                        </select>
+                    </label>
+                </p>
+                
+                <div class="botones">
+                    <p>
+                        <button type="reset" value="Resetear">Resetear</button>
+                    </p>
+    
+                    <p>
+                        <button type="submit" value="Registrar">Registrar</button>
+                    </p>
+                </div>
+
+                <p>
+                    ¿Ya tienes una cuenta? <span><a href="/ROOT/Ingresar.html">Ingresar</a></span>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p class="footerRegistro">Todos los derechos reservados a FRONT-END 1</p>
+    </footer>
+    
+</body>
+
+</html>
