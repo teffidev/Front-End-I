@@ -1,8 +1,7 @@
-Estudiante de Desarrollo Full-Stack
+Consignas Front-End
 
-Estos son los avances de varios proyectos elaborados para Front-End
+Estos son los avances de varios proyectos elaborados para paginas web.
 
-Conocimiento en lenguajes de programación:
+Usando y aplicando los lenguajes de programación:
 *HTML
 *CSS
-*JavaScript
