@@ -9,12 +9,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Karla:wght@200;300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
+
 <body>
     
     <header>
         <div class="descuento">
-            <span>20% de descuento en todos los productos</span>
+            <p>20% de descuento en todos los productos</p>
         </div>
         <h1>Nombre de tienda</h1>
         <div>
@@ -24,33 +26,33 @@
         </div>
     </header>
 
-    <main>
-        <section class="formulario">
-            <form action="text" method="POST">
-                <label class="title">Login</label>
-                <p>
-                    <label for="nombre">Nombre y Apellido</label>
-                    <input type="text" name="nombre" id="nombre" required>
-                </p>
+    <form action="text" method="POST">
+        <fieldset>
+            <legend><h2>Login</h2></legend>
 
-                <p>
-                    <label for="contraseña">Contraseña</label>
-                    <input type="password" name="password" id="contraseña" required>
-                </p>
+            <div class="input-group">
+                <label for="nombre">Usuario</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Usuario" autocomplete="off" tabindex="1" required>
+            </div>
 
-                <p>
-                    <button type="submit" value="Enviar">Entrar</button>
-                </p>
+            <div class="input-group">
+                <label for="contraseña">Contraseña</label>
+                <input type="password" name="password" id="contraseña" placeholder="Contraseña" required>
+            </div>
 
-                <p>
-                    ¿No tienes una cuenta? <span><a href="/ROOT/Registrarme.html">Registrarme</a></span>
-                </p>
-            </form>
-        </section>
-    </main>
+            <div class="button">
+                <input type="submit" value="Enviar">
+            </div>
 
-    <footer>
-        <p class="footerlogin">Todos los derechos reservados a FRONT-END 1</p>
+            <div class="registrarme">
+                <p>¿Aún no tienes una cuenta? <span><a href="/ROOT/Registrarme.html">Registrarme</a></span></p>
+            </div>
+        </fieldset>
+    </form>
+
+
+    <footer class="footerlogin">
+        <p>Todos los derechos reservados a: <span><a href="https://github.com/Tefiberal">Tefiberal FRONT-END I</a></span></p>
     </footer>
 </body>
 </html>

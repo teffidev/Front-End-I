@@ -61,7 +61,7 @@ h1 {
     color: #FFFFFF;
 }
 
-/*****Formulario*****/
+/****FORMULARIO***/
 
 form {
     display: flex;
@@ -109,16 +109,28 @@ input:focus {
     margin: 10px 0;
 }
 
-.button input {
-    background-color: #1CD1B0;
+.buttons {
+    display: flex;
+    background-color: red;
+    justify-content: space-around;
     border-style: none;
-    border-radius: 5px;
-    color: #000000;
-    font-size: 20px;
-    width: 94%;
+}
+
+.buttons input {
+    border-radius: 15px;
+    border-style: none;
+    font-size: 20px;    
+    width: 15vw;
     height: 50px;
     margin: 10px 0;
     align-items: center;
+}
+
+.button1 {
+    background-color: #888888;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
 }
 
 .button input:hover {
@@ -126,27 +138,9 @@ input:focus {
     color: #FFFFFF;
 }
 
-.registrarme {
-    text-align: center;
-    font-family: 'Karla', sans-serif;
-    font-size: 20px;
-}
+/*********FOOTER*******/
 
-.registrarme a:link {
-    text-decoration: none;
-    color: #1CD1B0;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-.registrarme a:visited {
-    color: #1CD1B0;
-}
-
-
-/******Footer******/
-
-.footerlogin {
+.footercontact {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,18 +153,18 @@ input:focus {
     font-size: 20px;
 }
 
-.footerlogin a:link {
+.footercontact a:link {
     text-decoration: none;
     color: #FFFFFF;
     cursor: pointer;
     font-weight: bold;
 }
 
-.footerlogin a:visited {
+.footercontact a:visited {
     color: #FFFFFF;
 }
 
-.footerlogin a:hover {
+.footercontact a:hover {
     background-color: rgba(212, 200, 200, 0.5);
     padding: 5px;
 }

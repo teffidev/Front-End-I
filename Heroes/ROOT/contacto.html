@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="/ROOT/CSS/contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Karla:wght@200;300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="descuento">
+            <p>20% de descuento en todos los productos</p>
+        </div>
+        <h1>Nombre de tienda</h1>
+        <div>
+            <nav class="nav-bar">
+                <a href="/ROOT/index.html">Inicio</a>
+            </nav>
+        </div>
+    </header>
+
+    <form action="text" method="post">
+        <fieldset>
+            <legend><h2>Contacto</h2></legend>
+
+            <div class="input-group">
+                <label for="nombre">Usuario</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Usuario" autocomplete="off" tabindex="1" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="E-mail" required>
+            </div>
+
+            <div class="input-group">
+                <textarea name="comentarios" id="comentarios" cols="100" rows="10" placeholder="Dejanos tus comentarios!"></textarea>
+            </div>
+
+            <div class="buttons">
+                <p class="button1">
+                    <input type="reset" value="Eliminar">
+                </p>
+                <p class="button2">
+                    <input type="submit" value="Registrar">
+                </p>
+            </div>
+        </fieldset>
+    </form>
+
+    <footer class="footercontact">
+        <p>Todos los derechos reservados a: <span><a href="https://github.com/Tefiberal">Tefiberal FRONT-END I</a></span></p>
+    </footer>    
+</body>
+</html>
